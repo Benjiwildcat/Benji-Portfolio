@@ -1,0 +1,51 @@
+body {
+    background-color: silver;
+
+}
+
+nav a {
+    /* color: aquamarine; */
+    text-align: right;
+}
+
+li {
+    display: inline;
+    margin: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: teal;
+}
+
+h1 {
+    color: white;
+}
+
+.top1 {
+    background-color: black;
+}
+
+main p {
+    text-align: right;
+    gap: 5px;
+    text-align: right;
+    color: navy;
+
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+main h2 {
+    color: navy;
+    margin-bottom: 100px;
+}
+
+div.top {
+    text-align: left;
+    font-size: x-large;
+}
