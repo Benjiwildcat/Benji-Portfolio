@@ -1,5 +1,6 @@
 body {
     background-color: silver;
+    margin: 0px;
 
 }
 
@@ -16,15 +17,28 @@ li {
 nav {
     display: flex;
     justify-content: space-between;
-    background-color: teal;
+    background-color: silver;
+
+}
+
+aside {
+    background-image: url(./pexels-nadi-lindsay-4885892.jpg);
+    padding: 110px;
+
 }
 
 h1 {
     color: white;
+    display: flex;
+}
+
+h1 .top1 {
+    margin: 0px;
 }
 
 .top1 {
-    background-color: black;
+    background-color: silver;
+    justify-content: flex-start;
 }
 
 main p {
@@ -61,4 +75,10 @@ main h2 {
 div.top {
     text-align: left;
     font-size: x-large;
+}
+
+ul {
+    text-align: right;
+    display: flex;
+    justify-content: space-between;
 }
