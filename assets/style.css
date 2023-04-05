@@ -44,8 +44,8 @@ main p {
     gap: 15px;
     text-align: right;
     color: olive;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
 
 }
 
@@ -94,9 +94,7 @@ div.top {
     font-size: x-large;
 }
 
-main.links {
-    justify-content: center;
-    gap: 15px;
-    justify-content: space-between;
-    font-size: x-large;
+div ul {
+    align-items: center;
+    text-align: center;
 }
